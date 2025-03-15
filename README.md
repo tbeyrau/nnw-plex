@@ -1,31 +1,22 @@
-# nnw-allmine
+# nnw-plex
 
-This is a personal customisation of the default NetNewsWire theme. It alters the
-fonts to a more Humanist style and sets the preferred code font to my favourite.
+Dies ist ein persönlicher Fork des [nnw-allmine](https://github.com/mikerhodes/nnw-allmine) Themes. Es ändert die Schriftarten zu IBM Plex Serif und IBM Plex Mono.
 
-- Alter code block style to remove border and add background.
-- Alter article and code font.
-- Set either [IBM Plex Sans] or Seravek (built into iOS and macOS) as article
-  font.
-- Set [JetBrains Mono] as code font, if it's installed.
+- Ändere den Stil des Codeblocks, um den Rand zu entfernen und einen Hintergrund hinzuzufügen.
+- Ändere die Artikel- und Code-Schriftart.
+- Setze [IBM Plex Serif] als Artikelschriftart.
+- Setze [IBM Plex Mono] als Code-Schriftart, wenn sie installiert ist.
 
-The screenshot shows both IBM Plex Sans and JetBrains Mono:
 
-![](./images/screenshot.png)
+[IBM Plex Serif]: https://www.ibm.com/plex/
+[IBM Plex Mono]: https://www.ibm.com/plex/
 
-[IBM Plex Sans]: https://www.ibm.com/plex/
-[JetBrains Mono]: https://www.jetbrains.com/lp/mono/
-
-## Install
+## Installation
 
 ### macOS
 
-To copy to your NetNewsWire theme folder, you can either double click the theme
-file (`Default-AllMine.nnwtheme`) or run:
+Um die Datei in deinen NetNewsWire-Theme-Ordner zu kopieren, kannst du entweder die Theme-Datei (`Default-Plex.nnwtheme`) doppelklicken oder ausführen:
 
-```
-make install
-```
 
 ### iOS
 

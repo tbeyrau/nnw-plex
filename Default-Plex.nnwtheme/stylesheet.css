@@ -44,8 +44,8 @@ a:hover {
 	--article-date-color: rgba(0, 0, 0, 0.3);
 	--table-cell-border-color: lightgray;
 	
-	--font-article: "IBM Plex Sans", Seravek, "Source Sans Pro", -apple-system;
-	--font-mono: "JetBrains Mono", "SF Mono", Menlo, "Courier New", Courier, monospace;
+	--font-article: "IBM Plex Serif", Seravek, "Source Sans Pro", -apple-system;
+	--font-mono: "IBM Plex Mono", "SF Mono", Menlo, "Courier New", Courier, monospace;
 	--code-background: rgb(241 245 249);
 }
 
@@ -365,13 +365,18 @@ a.footnote:hover,
 		word-break: break-word;
 		-webkit-hyphens: auto;
 		-webkit-text-size-adjust: none;
+		hyphens:auto;
+    		-text-align:justify;
+        -webkit-hyphenate-character:"\2010";
+        -webkit-hyphenate-limit-after:1;
+        -webkit-hyphenat e-limit-before:3;
 	}
 
 	:root {
 		color-scheme: light dark;
 		font: -apple-system-body;
 		/* The font-size is replaced at runtime by the dynamic type size */
-		font-size: calc([[font-size]]px + 1px);
+		font-size: calc([[font-size]]px - 1px);
 		--primary-accent-color: #086AEE;
 		--secondary-accent-color: #086AEE;
 		--block-quote-border-color: rgba(8, 106, 238, 0.75);

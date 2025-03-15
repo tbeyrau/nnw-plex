@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Name</key>
-	<string>All Mine</string>
+	<string>Plex</string>
 	<key>ThemeIdentifier</key>
-	<string>uk.co.dx13.nnwthemes.allmine</string>
+	<string>com.beyrau.nnwthemes.plex</string>
 	<key>CreatorHomePage</key>
 	<string>https://dx13.co.uk/</string>
 	<key>CreatorName</key>
-	<string>Mike Rhodes</string>
+	<string>Thomas</string>
 	<key>Version</key>
 	<integer>1</integer>
 </dict>
